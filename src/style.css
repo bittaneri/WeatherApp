@@ -1,0 +1,47 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body {
+  padding: 50px;
+  max-width: 900px;
+  align-items: center;
+  margin: 0 auto;
+}
+h3 {
+  font-size: 12px;
+}
+
+.card {
+  background: linear-gradient(
+    111.5deg,
+    rgb(228, 247, 255) 21.9%,
+    rgb(255, 216, 194) 92.2%
+  );
+  position: flex;
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border-radius: 30px;
+  flex-direction: column;
+}
+.col-md-2 {
+  background: linear-gradient(
+    111.5deg,
+    rgb(228, 247, 255) 21.9%,
+    rgb(255, 216, 194) 92.2%
+  );
+  position: flex;
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border-radius: 30px;
+  flex-direction: column;
+}

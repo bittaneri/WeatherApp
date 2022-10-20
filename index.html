@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <form class="form-search">
+            <input type="text" placeholder="Enter city name" id="search-city" autocomplete="off" control-id="ControlID-1">
+            <input id="search" type="submit" value="Search" control-id="ControlID-2">
+            <div class="row">
+              <div class="col-2"> 
+              <img src="src/img/icons8-sun-128.png" alt="clear sky" id="weather-icon">
+              </div>
+              <div class="col-6">
+                <br>
+                <h1 class="city" id="current-city">San Francisco</h1>
+                <h4 id="date-time">Monday 2:21 PM</h4>
+                <h4 class="weatherCondition">
+                  <span id="weatherDescripition">Clear</span>
+                </h4>
+              </div>
+              <div class="col-4">
+                <br>
+                <span class="temperature" id="temperature">65</span>
+                <span class="units">
+                  <a href="#" id="celsius-link" class="active">°C</a>
+                    " | "
+                    <a href="#" id="fahrenheit-link">°F</a>
+                </span> 
+              </h1>
+              <h4 class="huminity">Huminity: <span id="humidity">68</span>%</h4>
+              <h4 class="wind">
+                Wind:
+                <span id="windSpeed">4</span>km/h
+              </h4>
+            </br>
+              </div>
+              <hr>
+              <h5>Weather Details</h5>
+              </div><br>
+              <div class="row">
+                <div class="col-md-2"> Tuesday</div>
+                <div class="col-md-2"> Wednesday</div>
+                <div class="col-md-2"> Thursday</div>
+                <div class="col-md-2"> Friday</div>
+                <div class="col-md-2"> Saturday</div>
+                <div class="col-md-2"> Sunday</div>
+
+              </div>
+    
+                </div>
+              </div>
+            </div>
+
+    </div>
+  </body>
+</html>
